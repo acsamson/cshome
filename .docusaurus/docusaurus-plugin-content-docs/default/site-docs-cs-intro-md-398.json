@@ -1,0 +1,19 @@
+{
+  "unversionedId": "cs/intro",
+  "id": "cs/intro",
+  "isDocsHomePage": false,
+  "title": "intro",
+  "description": "<!--",
+  "source": "@site/docs/cs/intro.md",
+  "sourceDirName": "cs",
+  "slug": "/cs/intro",
+  "permalink": "/docs/cs/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/cs/intro.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

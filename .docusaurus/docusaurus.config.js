@@ -1,6 +1,6 @@
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "CSHOME",
+  "tagline": "CS学习导航网站",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -18,7 +18,7 @@ export default {
   },
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "SamTools",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -26,18 +26,29 @@ export default {
       "items": [
         {
           "type": "doc",
-          "docId": "intro",
+          "docId": "cs/intro",
           "position": "left",
-          "label": "Tutorial",
+          "label": "计算机基础",
           "activeSidebarClassName": "navbar__link--active"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/engineering/support",
+          "label": "工程能力基础",
+          "position": "left",
+          "activeBaseRegex": "/engineering/"
+        },
+        {
+          "to": "/algorithm",
+          "label": "算法基础",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/blog",
+          "label": "博客",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/acsamson",
           "label": "GitHub",
           "position": "right"
         }
@@ -57,7 +68,7 @@ export default {
           ]
         },
         {
-          "title": "Community",
+          "title": "engineering",
           "items": [
             {
               "label": "Stack Overflow",
@@ -318,10 +329,21 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "engineering",
+        "path": "engineering",
+        "editUrl": "https://github.com/acsamson/cshome/edit/main/website/",
+        "routeBasePath": "engineering",
+        "sidebarPath": "/Users/samson/code/cshome/sidebars.js"
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

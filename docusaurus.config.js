@@ -1,113 +1,143 @@
+/*
+ * @Description: 
+ * @Author: acsamson
+ * @Date: 2021-07-29 05:06:01
+ * @LastEditTime: 2021-07-29 05:17:01
+ * @LastEditors: acsamson@foxmail.com
+ * @FilePath: /cshome/docusaurus.config.js
+ */
+const organizationName = 'acsamson' // Usually your GitHub org/user name.
+const projectName = 'cshome' // Usually your repo name.
+const branch = 'main'
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-  i18n: {
-    defaultLocale: 'cn',
-    locales: ['cn', 'en'],
-  },
-  themeConfig: {
-    navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+    title: 'CSHOME',
+    tagline: 'CS学习导航网站',
+    url: 'https://your-docusaurus-test-site.com',
+    baseUrl: '/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
+    favicon: 'img/favicon.ico',
+    organizationName: 'facebook', // Usually your GitHub org/user name.
+    projectName: 'docusaurus', // Usually your repo name.
+    i18n: {
+        defaultLocale: 'cn',
+        locales: ['cn', 'en'],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
+    themeConfig: {
+        navbar: {
+            title: 'SamTools',
+            logo: {
+                alt: 'My Site Logo',
+                src: 'img/logo.svg',
             },
-          ],
+            items: [{
+                    type: 'doc',
+                    docId: 'cs/intro',
+                    position: 'left',
+                    label: '计算机基础',
+                },
+                {
+                    to: '/engineering/support',
+                    label: '工程能力基础',
+                    position: 'left',
+                    activeBaseRegex: '/engineering/'
+                },
+                {
+                    to: '/algorithm',
+                    label: '算法基础',
+                    position: 'left'
+                },
+                {
+                    to: '/blog',
+                    label: '博客',
+                    position: 'left'
+                },
+                {
+                    href: 'https://github.com/acsamson',
+                    label: 'GitHub',
+                    position: 'right',
+                },
+            ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
+        footer: {
+            style: 'dark',
+            links: [{
+                    title: 'Docs',
+                    items: [{
+                        label: 'Tutorial',
+                        to: '/docs/intro',
+                    }, ],
+                },
+                {
+                    title: 'engineering',
+                    items: [{
+                            label: 'Stack Overflow',
+                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                        },
+                        {
+                            label: 'Discord',
+                            href: 'https://discordapp.com/invite/docusaurus',
+                        },
+                        {
+                            label: 'Twitter',
+                            href: 'https://twitter.com/docusaurus',
+                        },
+                    ],
+                },
+                {
+                    title: 'More',
+                    items: [{
+                            label: 'Blog',
+                            to: '/blog',
+                        },
+                        {
+                            label: 'GitHub',
+                            href: 'https://github.com/facebook/docusaurus',
+                        },
+                    ],
+                },
+            ],
+            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
+        prism: {
+            theme: lightCodeTheme,
+            darkTheme: darkCodeTheme,
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-  },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
+    presets: [
+        [
+            '@docusaurus/preset-classic',
+            {
+                docs: {
+                    sidebarPath: require.resolve('./sidebars.js'),
+                    // Please change this to your repo.
+                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+                },
+                blog: {
+                    showReadingTime: true,
+                    // Please change this to your repo.
+                    editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+                },
+                theme: {
+                    customCss: require.resolve('./src/css/custom.css'),
+                },
+            },
+        ],
     ],
-  ],
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'engineering',
+                path: 'engineering',
+                editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/website/`,
+                routeBasePath: 'engineering',
+                sidebarPath: require.resolve('./sidebars.js')
+            },
+        ],
+    ]
 };

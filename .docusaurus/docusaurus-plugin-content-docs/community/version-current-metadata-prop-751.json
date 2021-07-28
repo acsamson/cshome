@@ -1,0 +1,19 @@
+{
+  "pluginId": "community",
+  "version": "current",
+  "label": "Next",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "community": [
+      {
+        "type": "link",
+        "label": "support",
+        "href": "/community/support"
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/community/support": "community"
+  }
+}

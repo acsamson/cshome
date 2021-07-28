@@ -7,11 +7,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro"
-      },
-      {
         "type": "category",
         "label": "Tutorial - Basics",
         "items": [
@@ -64,11 +59,23 @@
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "category",
+        "label": "cs",
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/cs/intro"
+          }
+        ],
+        "collapsed": true
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/intro": "tutorialSidebar",
+    "/docs/cs/intro": "tutorialSidebar",
     "/docs/tutorial-basics/congratulations": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
     "/docs/tutorial-basics/create-a-document": "tutorialSidebar",

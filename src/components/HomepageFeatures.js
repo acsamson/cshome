@@ -1,35 +1,41 @@
+/*
+ * @Description: 
+ * @Author: acsamson
+ * @Date: 2021-07-29 03:48:03
+ * @LastEditTime: 2021-07-29 03:52:18
+ * @LastEditors: acsamson@foxmail.com
+ * @FilePath: /cshome/src/components/HomepageFeatures.js
+ */
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '计算机基础',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+            <code>数据结构</code>
+            <code>计算机网络</code>
+            <code>操作系统</code>
+            <code>计算机组成原理</code>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '工程能力基础',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '算法基础',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
       </>
     ),
   },

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "engineering",
+  "id": "engineering",
+  "isDocsHomePage": false,
+  "title": "engineering",
+  "description": "<!--",
+  "source": "@site/docs/engineering.md",
+  "sourceDirName": ".",
+  "slug": "/engineering",
+  "permalink": "/docs/engineering",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/engineering.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/engineering/intro"
+  }
+}

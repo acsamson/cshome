@@ -1,0 +1,19 @@
+{
+  "unversionedId": "engineering/intro",
+  "id": "engineering/intro",
+  "isDocsHomePage": false,
+  "title": "intro",
+  "description": "<!--",
+  "source": "@site/docs/engineering/intro.md",
+  "sourceDirName": "engineering",
+  "slug": "/engineering/intro",
+  "permalink": "/docs/engineering/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/engineering/intro.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/cs/intro"
+  }
+}

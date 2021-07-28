@@ -1,0 +1,19 @@
+{
+  "pluginId": "engineering",
+  "version": "current",
+  "label": "Next",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Need Help?",
+        "href": "/engineering/support"
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/engineering/support": "tutorialSidebar"
+  }
+}

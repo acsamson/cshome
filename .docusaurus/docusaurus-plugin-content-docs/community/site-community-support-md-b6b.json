@@ -1,0 +1,15 @@
+{
+  "unversionedId": "support",
+  "id": "support",
+  "isDocsHomePage": false,
+  "title": "support",
+  "description": "<!--",
+  "source": "@site/community/support.md",
+  "sourceDirName": ".",
+  "slug": "/support",
+  "permalink": "/community/support",
+  "editUrl": "https://github.com/acsamson/cshome/edit/main/website/community/support.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "community"
+}

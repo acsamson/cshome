@@ -8,11 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "tutorial-basics/create-a-page",
           "docs": [
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "cs/intro",
+              "path": "/docs/cs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -53,6 +53,25 @@
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "engineering": {
+      "path": "/engineering",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/engineering",
+          "mainDocId": "support",
+          "docs": [
+            {
+              "id": "support",
+              "path": "/engineering/support",
               "sidebar": "tutorialSidebar"
             }
           ]

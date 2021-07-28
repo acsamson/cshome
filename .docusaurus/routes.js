@@ -94,12 +94,12 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','18a'),
+  component: ComponentCreator('/docs','553'),
   
   routes: [
 {
-  path: '/docs/intro',
-  component: ComponentCreator('/docs/intro','e84'),
+  path: '/docs/cs/intro',
+  component: ComponentCreator('/docs/cs/intro','06c'),
   exact: true,
 },
 {
@@ -140,6 +140,18 @@ export default [
 {
   path: '/docs/tutorial-extras/translate-your-site',
   component: ComponentCreator('/docs/tutorial-extras/translate-your-site','16a'),
+  exact: true,
+},
+]
+},
+{
+  path: '/engineering',
+  component: ComponentCreator('/engineering','1e8'),
+  
+  routes: [
+{
+  path: '/engineering/support',
+  component: ComponentCreator('/engineering/support','fb8'),
   exact: true,
 },
 ]

@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Author: acsamson
+ * @Date: 2021-07-29 03:37:23
+ * @LastEditTime: 2021-07-29 05:19:03
+ * @LastEditors: acsamson@foxmail.com
+ * @FilePath: /cshome/src/pages/index.js
+ */
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
@@ -14,11 +22,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          {/* <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+            acsamson@foxmail.com ⏱️
+          </Link> */}
         </div>
       </div>
     </header>
@@ -31,7 +39,7 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+          <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>

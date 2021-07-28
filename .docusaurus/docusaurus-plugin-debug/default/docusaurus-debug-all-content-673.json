@@ -14,13 +14,9 @@
           "sidebarFilePath": "/Users/samson/code/cshome/sidebars.js",
           "contentPath": "/Users/samson/code/cshome/docs",
           "contentPathLocalized": "/Users/samson/code/cshome/i18n/cn/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "mainDocId": "tutorial-basics/create-a-page",
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              },
               {
                 "type": "category",
                 "label": "Tutorial - Basics",
@@ -66,11 +62,22 @@
                   }
                 ],
                 "collapsed": true
+              },
+              {
+                "type": "category",
+                "label": "cs",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "cs/intro"
+                  }
+                ],
+                "collapsed": true
               }
             ]
           },
           "permalinkToSidebar": {
-            "/docs/intro": "tutorialSidebar",
+            "/docs/cs/intro": "tutorialSidebar",
             "/docs/tutorial-basics/congratulations": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
             "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
@@ -82,25 +89,22 @@
           },
           "docs": [
             {
-              "unversionedId": "intro",
-              "id": "intro",
+              "unversionedId": "cs/intro",
+              "id": "cs/intro",
               "isDocsHomePage": false,
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "title": "intro",
+              "description": "<!--",
+              "source": "@site/docs/cs/intro.md",
+              "sourceDirName": "cs",
+              "slug": "/cs/intro",
+              "permalink": "/docs/cs/intro",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/cs/intro.md",
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -198,10 +202,6 @@
                 "sidebar_position": 1
               },
               "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
               "next": {
                 "title": "Create a Document",
                 "permalink": "/docs/tutorial-basics/create-a-document"
@@ -305,7 +305,60 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/cs/intro"
               }
+            }
+          ]
+        }
+      ]
+    },
+    "engineering": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/engineering",
+          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering",
+          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/samson/code/cshome/sidebars.js",
+          "contentPath": "/Users/samson/code/cshome/engineering",
+          "contentPathLocalized": "/Users/samson/code/cshome/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
+          "mainDocId": "support",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "support"
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/engineering/support": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "support",
+              "id": "support",
+              "isDocsHomePage": false,
+              "title": "Need Help?",
+              "description": "This project is maintained by a dedicated group of people.",
+              "source": "@site/engineering/support.md",
+              "sourceDirName": ".",
+              "slug": "/support",
+              "permalink": "/engineering/support",
+              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering/support.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "support",
+                "title": "Need Help?"
+              },
+              "sidebar": "tutorialSidebar"
             }
           ]
         }
