@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: acsamson
  * @Date: 2021-07-29 05:06:01
- * @LastEditTime: 2021-07-29 05:17:01
+ * @LastEditTime: 2021-07-29 05:25:12
  * @LastEditors: acsamson@foxmail.com
  * @FilePath: /cshome/docusaurus.config.js
  */
@@ -46,11 +46,11 @@ module.exports = {
                     position: 'left',
                     activeBaseRegex: '/engineering/'
                 },
-                {
-                    to: '/algorithm',
-                    label: '算法基础',
-                    position: 'left'
-                },
+                // {
+                //     to: '/algorithm',
+                //     label: '算法基础',
+                //     position: 'left'
+                // },
                 {
                     to: '/blog',
                     label: '博客',

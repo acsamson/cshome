@@ -7,7 +7,7 @@
   "source": "@site/docs/tutorial-basics/deploy-your-site.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/en/docs/tutorial-basics/deploy-your-site",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
   "version": "current",
   "sidebarPosition": 5,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Markdown Features",
-    "permalink": "/docs/tutorial-basics/markdown-features"
+    "permalink": "/en/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Congratulations!",
-    "permalink": "/docs/tutorial-basics/congratulations"
+    "permalink": "/en/docs/tutorial-basics/congratulations"
   }
 }

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksamtools_cshome=self.webpackChunksamtools_cshome||[]).push([[535],{6353:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/en/blog/welcome"},{"title":"Hello","permalink":"/en/blog/hello-world"},{"title":"Hola","permalink":"/en/blog/hola"}]}')}}]);

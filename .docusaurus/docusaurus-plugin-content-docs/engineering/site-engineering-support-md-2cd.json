@@ -3,11 +3,11 @@
   "id": "support",
   "isDocsHomePage": false,
   "title": "Need Help?",
-  "description": "This project is maintained by a dedicated group of people.",
+  "description": "dsa",
   "source": "@site/engineering/support.md",
   "sourceDirName": ".",
   "slug": "/support",
-  "permalink": "/engineering/support",
+  "permalink": "/en/engineering/support",
   "editUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering/support.md",
   "version": "current",
   "frontMatter": {

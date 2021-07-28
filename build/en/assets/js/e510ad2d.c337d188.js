@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksamtools_cshome=self.webpackChunksamtools_cshome||[]).push([[34],{1983:function(s){s.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/en/blog/tags/hola"}')}}]);

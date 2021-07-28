@@ -7,7 +7,7 @@
   "source": "@site/docs/tutorial-basics/congratulations.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/congratulations",
-  "permalink": "/docs/tutorial-basics/congratulations",
+  "permalink": "/en/docs/tutorial-basics/congratulations",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
   "version": "current",
   "sidebarPosition": 6,
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Deploy your site",
-    "permalink": "/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/en/docs/tutorial-basics/deploy-your-site"
   },
   "next": {
     "title": "Manage Docs Versions",
-    "permalink": "/docs/tutorial-extras/manage-docs-versions"
+    "permalink": "/en/docs/tutorial-extras/manage-docs-versions"
   }
 }

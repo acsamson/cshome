@@ -2,7 +2,7 @@ export default {
   "title": "CSHOME",
   "tagline": "CS学习导航网站",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "baseUrl": "/en/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -36,11 +36,6 @@ export default {
           "label": "工程能力基础",
           "position": "left",
           "activeBaseRegex": "/engineering/"
-        },
-        {
-          "to": "/algorithm",
-          "label": "算法基础",
-          "position": "left"
         },
         {
           "to": "/blog",

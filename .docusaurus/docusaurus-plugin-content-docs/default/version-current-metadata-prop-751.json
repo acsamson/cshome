@@ -13,32 +13,32 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page"
+            "href": "/en/docs/tutorial-basics/create-a-page"
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document"
+            "href": "/en/docs/tutorial-basics/create-a-document"
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
+            "href": "/en/docs/tutorial-basics/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
+            "href": "/en/docs/tutorial-basics/markdown-features"
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
+            "href": "/en/docs/tutorial-basics/deploy-your-site"
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
+            "href": "/en/docs/tutorial-basics/congratulations"
           }
         ],
         "collapsed": true
@@ -50,12 +50,12 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "href": "/en/docs/tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "href": "/en/docs/tutorial-extras/translate-your-site"
           }
         ],
         "collapsed": true
@@ -67,22 +67,28 @@
           {
             "type": "link",
             "label": "intro",
-            "href": "/docs/cs/intro"
+            "href": "/en/docs/cs/intro"
           }
         ],
         "collapsed": true
+      },
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/en/docs/intro"
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/cs/intro": "tutorialSidebar",
-    "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-    "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-    "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-    "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
-    "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-    "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+    "/en/docs/cs/intro": "tutorialSidebar",
+    "/en/docs/intro": "tutorialSidebar",
+    "/en/docs/tutorial-basics/congratulations": "tutorialSidebar",
+    "/en/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
+    "/en/docs/tutorial-basics/create-a-document": "tutorialSidebar",
+    "/en/docs/tutorial-basics/create-a-page": "tutorialSidebar",
+    "/en/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
+    "/en/docs/tutorial-basics/markdown-features": "tutorialSidebar",
+    "/en/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
+    "/en/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
   }
 }
