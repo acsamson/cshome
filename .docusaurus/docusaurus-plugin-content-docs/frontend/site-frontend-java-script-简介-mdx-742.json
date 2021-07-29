@@ -1,18 +1,18 @@
 {
-  "unversionedId": "JavaScript/简介",
-  "id": "JavaScript/简介",
-  "isDocsHomePage": false,
-  "title": "简介",
-  "description": "大萨",
-  "source": "@site/frontend/JavaScript/简介.mdx",
-  "sourceDirName": "JavaScript",
-  "slug": "/JavaScript/简介",
-  "permalink": "/frontend/JavaScript/简介",
-  "editUrl": "https://github.com/acsamson/cshome/edit/main/website/frontend/JavaScript/简介.mdx",
-  "version": "current",
-  "frontMatter": {
-    "id": "简介",
-    "title": "简介"
-  },
-  "sidebar": "tutorialSidebar"
+    "unversionedId": "JavaScript/简介",
+    "id": "JavaScript/简介",
+    "isDocsHomePage": false,
+    "title": "简介",
+    "description": "大萨",
+    "source": "@site/frontend/JavaScript/简介.mdx",
+    "sourceDirName": "JavaScript",
+    "slug": "/JavaScript/简介",
+    "permalink": "/frontend/JavaScript/简介",
+    "editUrl": "https://github.com/acsamson/cshome/edit/master/frontend/JavaScript/简介.mdx",
+    "version": "current",
+    "frontMatter": {
+        "id": "简介",
+        "title": "简介"
+    },
+    "sidebar": "tutorialSidebar"
 }

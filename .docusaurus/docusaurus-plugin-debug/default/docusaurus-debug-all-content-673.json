@@ -1,269 +1,236 @@
 {
-  "docusaurus-plugin-content-docs": {
-    "default": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/cn/docusaurus-plugin-content-docs/current",
-          "versionBanner": "none",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
-          "contentPath": "/Users/lianshanchun/code/cshome/docs",
-          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "intro"
-              }
-            ]
-          },
-          "permalinkToSidebar": {
-            "/docs/intro": "tutorialSidebar"
-          },
-          "docs": [
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "isDocsHomePage": false,
-              "title": "intro",
-              "description": "<!--",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar"
-            }
-          ]
+    "docusaurus-plugin-content-docs": {
+        "default": {
+            "loadedVersions": [{
+                "versionName": "current",
+                "versionLabel": "Next",
+                "versionPath": "/docs",
+                "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+                "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/cn/docusaurus-plugin-content-docs/current",
+                "versionBanner": "none",
+                "isLast": true,
+                "routePriority": -1,
+                "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+                "contentPath": "/Users/lianshanchun/code/cshome/docs",
+                "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs/current",
+                "mainDocId": "intro",
+                "sidebars": {
+                    "tutorialSidebar": [{
+                        "type": "doc",
+                        "id": "intro"
+                    }]
+                },
+                "permalinkToSidebar": {
+                    "/docs/intro": "tutorialSidebar"
+                },
+                "docs": [{
+                    "unversionedId": "intro",
+                    "id": "intro",
+                    "isDocsHomePage": false,
+                    "title": "intro",
+                    "description": "<!--",
+                    "source": "@site/docs/intro.md",
+                    "sourceDirName": ".",
+                    "slug": "/intro",
+                    "permalink": "/docs/intro",
+                    "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+                    "version": "current",
+                    "frontMatter": {},
+                    "sidebar": "tutorialSidebar"
+                }]
+            }]
+        },
+        "engineering": {
+            "loadedVersions": [{
+                "versionName": "current",
+                "versionLabel": "Next",
+                "versionPath": "/engineering",
+                "versionEditUrl": "https://github.com/acsamson/cshome/edit/master/engineering",
+                "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/master/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
+                "versionBanner": "none",
+                "isLast": true,
+                "routePriority": -1,
+                "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+                "contentPath": "/Users/lianshanchun/code/cshome/engineering",
+                "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
+                "mainDocId": "support",
+                "sidebars": {
+                    "tutorialSidebar": [{
+                        "type": "doc",
+                        "id": "support"
+                    }]
+                },
+                "permalinkToSidebar": {
+                    "/engineering/support": "tutorialSidebar"
+                },
+                "docs": [{
+                    "unversionedId": "support",
+                    "id": "support",
+                    "isDocsHomePage": false,
+                    "title": "Need Help?",
+                    "description": "dsa",
+                    "source": "@site/engineering/support.md",
+                    "sourceDirName": ".",
+                    "slug": "/support",
+                    "permalink": "/engineering/support",
+                    "editUrl": "https://github.com/acsamson/cshome/edit/master/engineering/support.md",
+                    "version": "current",
+                    "frontMatter": {
+                        "id": "support",
+                        "title": "Need Help?"
+                    },
+                    "sidebar": "tutorialSidebar"
+                }]
+            }]
+        },
+        "algorithm": {
+            "loadedVersions": [{
+                "versionName": "current",
+                "versionLabel": "Next",
+                "versionPath": "/algorithm",
+                "versionEditUrl": "https://github.com/acsamson/cshome/edit/master/algorithm",
+                "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/master/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
+                "versionBanner": "none",
+                "isLast": true,
+                "routePriority": -1,
+                "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+                "contentPath": "/Users/lianshanchun/code/cshome/algorithm",
+                "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
+                "mainDocId": "动态规划/基础",
+                "sidebars": {
+                    "tutorialSidebar": [{
+                        "type": "category",
+                        "label": "动态规划",
+                        "items": [{
+                            "type": "doc",
+                            "id": "动态规划/基础"
+                        }],
+                        "collapsed": true
+                    }]
+                },
+                "permalinkToSidebar": {
+                    "/algorithm/动态规划/基础": "tutorialSidebar"
+                },
+                "docs": [{
+                    "unversionedId": "动态规划/基础",
+                    "id": "动态规划/基础",
+                    "isDocsHomePage": false,
+                    "title": "基础",
+                    "description": "<!-- ---",
+                    "source": "@site/algorithm/动态规划/基础.mdx",
+                    "sourceDirName": "动态规划",
+                    "slug": "/动态规划/基础",
+                    "permalink": "/algorithm/动态规划/基础",
+                    "editUrl": "https://github.com/acsamson/cshome/edit/master/algorithm/动态规划/基础.mdx",
+                    "version": "current",
+                    "frontMatter": {},
+                    "sidebar": "tutorialSidebar"
+                }]
+            }]
+        },
+        "frontend": {
+            "loadedVersions": [{
+                "versionName": "current",
+                "versionLabel": "Next",
+                "versionPath": "/frontend",
+                "versionEditUrl": "https://github.com/acsamson/cshome/edit/master/frontend",
+                "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/master/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
+                "versionBanner": "none",
+                "isLast": true,
+                "routePriority": -1,
+                "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+                "contentPath": "/Users/lianshanchun/code/cshome/frontend",
+                "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
+                "mainDocId": "JavaScript/简介",
+                "sidebars": {
+                    "tutorialSidebar": [{
+                        "type": "category",
+                        "label": "JavaScript",
+                        "items": [{
+                            "type": "doc",
+                            "id": "JavaScript/简介"
+                        }],
+                        "collapsed": true
+                    }]
+                },
+                "permalinkToSidebar": {
+                    "/frontend/JavaScript/简介": "tutorialSidebar"
+                },
+                "docs": [{
+                    "unversionedId": "JavaScript/简介",
+                    "id": "JavaScript/简介",
+                    "isDocsHomePage": false,
+                    "title": "简介",
+                    "description": "大萨",
+                    "source": "@site/frontend/JavaScript/简介.mdx",
+                    "sourceDirName": "JavaScript",
+                    "slug": "/JavaScript/简介",
+                    "permalink": "/frontend/JavaScript/简介",
+                    "editUrl": "https://github.com/acsamson/cshome/edit/master/frontend/JavaScript/简介.mdx",
+                    "version": "current",
+                    "frontMatter": {
+                        "id": "简介",
+                        "title": "简介"
+                    },
+                    "sidebar": "tutorialSidebar"
+                }]
+            }]
         }
-      ]
     },
-    "engineering": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/engineering",
-          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering",
-          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
-          "versionBanner": "none",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
-          "contentPath": "/Users/lianshanchun/code/cshome/engineering",
-          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
-          "mainDocId": "support",
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "doc",
-                "id": "support"
-              }
-            ]
-          },
-          "permalinkToSidebar": {
-            "/engineering/support": "tutorialSidebar"
-          },
-          "docs": [
-            {
-              "unversionedId": "support",
-              "id": "support",
-              "isDocsHomePage": false,
-              "title": "Need Help?",
-              "description": "dsa",
-              "source": "@site/engineering/support.md",
-              "sourceDirName": ".",
-              "slug": "/support",
-              "permalink": "/engineering/support",
-              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering/support.md",
-              "version": "current",
-              "frontMatter": {
-                "id": "support",
-                "title": "Need Help?"
-              },
-              "sidebar": "tutorialSidebar"
-            }
-          ]
-        }
-      ]
-    },
-    "algorithm": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/algorithm",
-          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/algorithm",
-          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
-          "versionBanner": "none",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
-          "contentPath": "/Users/lianshanchun/code/cshome/algorithm",
-          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
-          "mainDocId": "动态规划/基础",
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "category",
-                "label": "动态规划",
+    "docusaurus-plugin-content-blog": {
+        "default": {
+            "blogPosts": [{
+                "id": "初次搭建",
+                "metadata": {
+                    "permalink": "/blog/初次搭建",
+                    "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-07-29-初次搭建.md",
+                    "source": "@site/blog/2021-07-29-初次搭建.md",
+                    "title": "初次搭建",
+                    "description": "初次搭建测试",
+                    "date": "2021-07-29T00:00:00.000Z",
+                    "formattedDate": "2021 M07 29",
+                    "tags": [],
+                    "readingTime": 0.005,
+                    "truncated": false
+                }
+            }],
+            "blogListPaginated": [{
+                "metadata": {
+                    "permalink": "/blog",
+                    "page": 1,
+                    "postsPerPage": 10,
+                    "totalPages": 1,
+                    "totalCount": 1,
+                    "previousPage": null,
+                    "nextPage": null,
+                    "blogDescription": "Blog",
+                    "blogTitle": "Blog"
+                },
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "动态规划/基础"
-                  }
-                ],
-                "collapsed": true
-              }
-            ]
-          },
-          "permalinkToSidebar": {
-            "/algorithm/动态规划/基础": "tutorialSidebar"
-          },
-          "docs": [
-            {
-              "unversionedId": "动态规划/基础",
-              "id": "动态规划/基础",
-              "isDocsHomePage": false,
-              "title": "基础",
-              "description": "<!-- ---",
-              "source": "@site/algorithm/动态规划/基础.mdx",
-              "sourceDirName": "动态规划",
-              "slug": "/动态规划/基础",
-              "permalink": "/algorithm/动态规划/基础",
-              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/algorithm/动态规划/基础.mdx",
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar"
-            }
-          ]
+                    "初次搭建"
+                ]
+            }],
+            "blogTags": {},
+            "blogTagsListPath": null
         }
-      ]
     },
-    "frontend": {
-      "loadedVersions": [
-        {
-          "versionName": "current",
-          "versionLabel": "Next",
-          "versionPath": "/frontend",
-          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/frontend",
-          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
-          "versionBanner": "none",
-          "isLast": true,
-          "routePriority": -1,
-          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
-          "contentPath": "/Users/lianshanchun/code/cshome/frontend",
-          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
-          "mainDocId": "JavaScript/简介",
-          "sidebars": {
-            "tutorialSidebar": [
-              {
-                "type": "category",
-                "label": "JavaScript",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "JavaScript/简介"
-                  }
-                ],
-                "collapsed": true
-              }
-            ]
-          },
-          "permalinkToSidebar": {
-            "/frontend/JavaScript/简介": "tutorialSidebar"
-          },
-          "docs": [
+    "docusaurus-plugin-content-pages": {
+        "default": [{
+                "type": "jsx",
+                "permalink": "/",
+                "source": "@site/src/pages/index.js"
+            },
             {
-              "unversionedId": "JavaScript/简介",
-              "id": "JavaScript/简介",
-              "isDocsHomePage": false,
-              "title": "简介",
-              "description": "大萨",
-              "source": "@site/frontend/JavaScript/简介.mdx",
-              "sourceDirName": "JavaScript",
-              "slug": "/JavaScript/简介",
-              "permalink": "/frontend/JavaScript/简介",
-              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/frontend/JavaScript/简介.mdx",
-              "version": "current",
-              "frontMatter": {
-                "id": "简介",
-                "title": "简介"
-              },
-              "sidebar": "tutorialSidebar"
+                "type": "mdx",
+                "permalink": "/markdown-page",
+                "source": "@site/src/pages/markdown-page.md"
             }
-          ]
-        }
-      ]
+        ]
+    },
+    "docusaurus-plugin-debug": {
+        "default": null
+    },
+    "docusaurus-theme-classic": {
+        "default": null
     }
-  },
-  "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogPosts": [
-        {
-          "id": "初次搭建",
-          "metadata": {
-            "permalink": "/blog/初次搭建",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-07-29-初次搭建.md",
-            "source": "@site/blog/2021-07-29-初次搭建.md",
-            "title": "初次搭建",
-            "description": "初次搭建测试",
-            "date": "2021-07-29T00:00:00.000Z",
-            "formattedDate": "2021 M07 29",
-            "tags": [],
-            "readingTime": 0.005,
-            "truncated": false
-          }
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "metadata": {
-            "permalink": "/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 1,
-            "previousPage": null,
-            "nextPage": null,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          },
-          "items": [
-            "初次搭建"
-          ]
-        }
-      ],
-      "blogTags": {},
-      "blogTagsListPath": null
-    }
-  },
-  "docusaurus-plugin-content-pages": {
-    "default": [
-      {
-        "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.js"
-      },
-      {
-        "type": "mdx",
-        "permalink": "/markdown-page",
-        "source": "@site/src/pages/markdown-page.md"
-      }
-    ]
-  },
-  "docusaurus-plugin-debug": {
-    "default": null
-  },
-  "docusaurus-theme-classic": {
-    "default": null
-  }
 }

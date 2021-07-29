@@ -1,18 +1,18 @@
 {
-  "unversionedId": "support",
-  "id": "support",
-  "isDocsHomePage": false,
-  "title": "Need Help?",
-  "description": "dsa",
-  "source": "@site/engineering/support.md",
-  "sourceDirName": ".",
-  "slug": "/support",
-  "permalink": "/engineering/support",
-  "editUrl": "https://github.com/acsamson/cshome/edit/main/website/engineering/support.md",
-  "version": "current",
-  "frontMatter": {
+    "unversionedId": "support",
     "id": "support",
-    "title": "Need Help?"
-  },
-  "sidebar": "tutorialSidebar"
+    "isDocsHomePage": false,
+    "title": "Need Help?",
+    "description": "dsa",
+    "source": "@site/engineering/support.md",
+    "sourceDirName": ".",
+    "slug": "/support",
+    "permalink": "/engineering/support",
+    "editUrl": "https://github.com/acsamson/cshome/edit/master/engineering/support.md",
+    "version": "current",
+    "frontMatter": {
+        "id": "support",
+        "title": "Need Help?"
+    },
+    "sidebar": "tutorialSidebar"
 }
