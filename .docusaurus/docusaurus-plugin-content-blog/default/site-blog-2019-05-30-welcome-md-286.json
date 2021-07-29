@@ -22,6 +22,10 @@
   ],
   "readingTime": 0.175,
   "truncated": false,
+  "prevItem": {
+    "title": "初次搭建",
+    "permalink": "/blog/初次搭建"
+  },
   "nextItem": {
     "title": "Hello",
     "permalink": "/blog/hello-world"

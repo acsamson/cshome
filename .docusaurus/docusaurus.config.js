@@ -21,6 +21,11 @@ export default {
       "title": "SamTools",
       "items": [
         {
+          "to": "/blog",
+          "label": "动态",
+          "position": "left"
+        },
+        {
           "type": "doc",
           "docId": "intro",
           "position": "left",
@@ -38,11 +43,6 @@ export default {
           "label": "算法",
           "position": "left",
           "activeBaseRegex": "/algorithm/"
-        },
-        {
-          "to": "/blog",
-          "label": "博客",
-          "position": "left"
         },
         {
           "to": "/frontend/JavaScript/简介",

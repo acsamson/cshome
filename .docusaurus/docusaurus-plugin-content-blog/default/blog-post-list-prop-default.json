@@ -2,16 +2,8 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome"
-    },
-    {
-      "title": "Hello",
-      "permalink": "/blog/hello-world"
-    },
-    {
-      "title": "Hola",
-      "permalink": "/blog/hola"
+      "title": "初次搭建",
+      "permalink": "/blog/初次搭建"
     }
   ]
 }

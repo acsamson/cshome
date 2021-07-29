@@ -1,24 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "default": {
-      "path": "/docs",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/docs",
-          "mainDocId": "intro",
-          "docs": [
-            {
-              "id": "intro",
-              "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            }
-          ]
-        }
-      ]
-    },
     "engineering": {
       "path": "/engineering",
       "versions": [
@@ -32,6 +13,25 @@
             {
               "id": "support",
               "path": "/engineering/support",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             }
           ]

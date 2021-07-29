@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: acsamson
  * @Date: 2021-07-29 05:06:01
- * @LastEditTime: 2021-07-29 11:32:42
+ * @LastEditTime: 2021-07-29 11:37:08
  * @LastEditors: acsamson@foxmail.com
  * @FilePath: /cshome/docusaurus.config.js
  */
@@ -35,6 +35,11 @@ module.exports = {
             //     src: 'img/logo.svg',
             // },
             items: [{
+                    to: '/blog',
+                    label: '动态',
+                    position: 'left'
+                },
+                {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
@@ -51,11 +56,6 @@ module.exports = {
                     label: '算法',
                     position: 'left',
                     activeBaseRegex: '/algorithm/'
-                },
-                {
-                    to: '/blog',
-                    label: '博客',
-                    position: 'left'
                 },
                 {
                     to: '/frontend/JavaScript/简介',
