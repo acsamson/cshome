@@ -7,13 +7,9 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/en/docs/intro",
+  "permalink": "/docs/intro",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "intro",
-    "permalink": "/en/docs/cs/intro"
-  }
+  "sidebar": "tutorialSidebar"
 }

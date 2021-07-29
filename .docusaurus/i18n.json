@@ -4,14 +4,14 @@
     "cn",
     "en"
   ],
-  "currentLocale": "en",
+  "currentLocale": "cn",
   "localeConfigs": {
     "cn": {
       "label": "cn",
       "direction": "ltr"
     },
     "en": {
-      "label": "English",
+      "label": "en",
       "direction": "ltr"
     }
   }

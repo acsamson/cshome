@@ -2,7 +2,7 @@ export default {
   "title": "CSHOME",
   "tagline": "CS学习导航网站",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/en/",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
@@ -19,14 +19,10 @@ export default {
   "themeConfig": {
     "navbar": {
       "title": "SamTools",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
-      },
       "items": [
         {
           "type": "doc",
-          "docId": "cs/intro",
+          "docId": "intro",
           "position": "left",
           "label": "计算机基础",
           "activeSidebarClassName": "navbar__link--active"
@@ -38,9 +34,21 @@ export default {
           "activeBaseRegex": "/engineering/"
         },
         {
+          "to": "/algorithm/动态规划/基础",
+          "label": "算法",
+          "position": "left",
+          "activeBaseRegex": "/algorithm/"
+        },
+        {
           "to": "/blog",
           "label": "博客",
           "position": "left"
+        },
+        {
+          "to": "/frontend/JavaScript/简介",
+          "label": "前端",
+          "position": "left",
+          "activeBaseRegex": "/frontend/"
         },
         {
           "href": "https://github.com/acsamson",
@@ -311,7 +319,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/samson/code/cshome/sidebars.js",
+          "sidebarPath": "/Users/lianshanchun/code/cshome/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -319,7 +327,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/samson/code/cshome/src/css/custom.css"
+          "customCss": "/Users/lianshanchun/code/cshome/src/css/custom.css"
         }
       }
     ]
@@ -332,7 +340,27 @@ export default {
         "path": "engineering",
         "editUrl": "https://github.com/acsamson/cshome/edit/main/website/",
         "routeBasePath": "engineering",
-        "sidebarPath": "/Users/samson/code/cshome/sidebars.js"
+        "sidebarPath": "/Users/lianshanchun/code/cshome/sidebars.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "algorithm",
+        "path": "algorithm",
+        "editUrl": "https://github.com/acsamson/cshome/edit/main/website/",
+        "routeBasePath": "algorithm",
+        "sidebarPath": "/Users/lianshanchun/code/cshome/sidebars.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "frontend",
+        "path": "frontend",
+        "editUrl": "https://github.com/acsamson/cshome/edit/main/website/",
+        "routeBasePath": "frontend",
+        "sidebarPath": "/Users/lianshanchun/code/cshome/sidebars.js"
       }
     ]
   ],

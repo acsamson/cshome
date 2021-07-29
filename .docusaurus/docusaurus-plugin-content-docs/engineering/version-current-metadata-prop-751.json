@@ -9,11 +9,11 @@
       {
         "type": "link",
         "label": "Need Help?",
-        "href": "/en/engineering/support"
+        "href": "/engineering/support"
       }
     ]
   },
   "permalinkToSidebar": {
-    "/en/engineering/support": "tutorialSidebar"
+    "/engineering/support": "tutorialSidebar"
   }
 }

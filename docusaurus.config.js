@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: acsamson
  * @Date: 2021-07-29 05:06:01
- * @LastEditTime: 2021-07-29 05:25:12
+ * @LastEditTime: 2021-07-29 11:32:42
  * @LastEditors: acsamson@foxmail.com
  * @FilePath: /cshome/docusaurus.config.js
  */
@@ -30,13 +30,13 @@ module.exports = {
     themeConfig: {
         navbar: {
             title: 'SamTools',
-            logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
-            },
+            // logo: {
+            //     alt: 'My Site Logo',
+            //     src: 'img/logo.svg',
+            // },
             items: [{
                     type: 'doc',
-                    docId: 'cs/intro',
+                    docId: 'intro',
                     position: 'left',
                     label: '计算机基础',
                 },
@@ -46,15 +46,22 @@ module.exports = {
                     position: 'left',
                     activeBaseRegex: '/engineering/'
                 },
-                // {
-                //     to: '/algorithm',
-                //     label: '算法基础',
-                //     position: 'left'
-                // },
+                {
+                    to: '/algorithm/动态规划/基础',
+                    label: '算法',
+                    position: 'left',
+                    activeBaseRegex: '/algorithm/'
+                },
                 {
                     to: '/blog',
                     label: '博客',
                     position: 'left'
+                },
+                {
+                    to: '/frontend/JavaScript/简介',
+                    label: '前端',
+                    position: 'left',
+                    activeBaseRegex: '/frontend/'
                 },
                 {
                     href: 'https://github.com/acsamson',
@@ -136,6 +143,26 @@ module.exports = {
                 path: 'engineering',
                 editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/website/`,
                 routeBasePath: 'engineering',
+                sidebarPath: require.resolve('./sidebars.js')
+            }
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'algorithm',
+                path: 'algorithm',
+                editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/website/`,
+                routeBasePath: 'algorithm',
+                sidebarPath: require.resolve('./sidebars.js')
+            },
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'frontend',
+                path: 'frontend',
+                editUrl: `https://github.com/${organizationName}/${projectName}/edit/${branch}/website/`,
+                routeBasePath: 'frontend',
                 sidebarPath: require.resolve('./sidebars.js')
             },
         ],

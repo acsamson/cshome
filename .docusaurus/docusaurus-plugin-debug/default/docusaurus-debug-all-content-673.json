@@ -11,69 +11,12 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/samson/code/cshome/sidebars.js",
-          "contentPath": "/Users/samson/code/cshome/docs",
-          "contentPathLocalized": "/Users/samson/code/cshome/i18n/cn/docusaurus-plugin-content-docs/current",
-          "mainDocId": "tutorial-basics/create-a-page",
+          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+          "contentPath": "/Users/lianshanchun/code/cshome/docs",
+          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs/current",
+          "mainDocId": "intro",
           "sidebars": {
             "tutorialSidebar": [
-              {
-                "type": "category",
-                "label": "Tutorial - Basics",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-basics/congratulations"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "Tutorial - Extras",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
-                  }
-                ],
-                "collapsed": true
-              },
-              {
-                "type": "category",
-                "label": "cs",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "cs/intro"
-                  }
-                ],
-                "collapsed": true
-              },
               {
                 "type": "doc",
                 "id": "intro"
@@ -81,41 +24,9 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/cs/intro": "tutorialSidebar",
-            "/docs/intro": "tutorialSidebar",
-            "/docs/tutorial-basics/congratulations": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-blog-post": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-document": "tutorialSidebar",
-            "/docs/tutorial-basics/create-a-page": "tutorialSidebar",
-            "/docs/tutorial-basics/deploy-your-site": "tutorialSidebar",
-            "/docs/tutorial-basics/markdown-features": "tutorialSidebar",
-            "/docs/tutorial-extras/manage-docs-versions": "tutorialSidebar",
-            "/docs/tutorial-extras/translate-your-site": "tutorialSidebar"
+            "/docs/intro": "tutorialSidebar"
           },
           "docs": [
-            {
-              "unversionedId": "cs/intro",
-              "id": "cs/intro",
-              "isDocsHomePage": false,
-              "title": "intro",
-              "description": "<!--",
-              "source": "@site/docs/cs/intro.md",
-              "sourceDirName": "cs",
-              "slug": "/cs/intro",
-              "permalink": "/docs/cs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/cs/intro.md",
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/docs/intro"
-              }
-            },
             {
               "unversionedId": "intro",
               "id": "intro",
@@ -129,215 +40,7 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "intro",
-                "permalink": "/docs/cs/intro"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "isDocsHomePage": false,
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "isDocsHomePage": false,
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "isDocsHomePage": false,
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-document.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "isDocsHomePage": false,
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-page.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "isDocsHomePage": false,
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/docs/cs/intro"
-              }
+              "sidebar": "tutorialSidebar"
             }
           ]
         }
@@ -354,9 +57,9 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/samson/code/cshome/sidebars.js",
-          "contentPath": "/Users/samson/code/cshome/engineering",
-          "contentPathLocalized": "/Users/samson/code/cshome/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
+          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+          "contentPath": "/Users/lianshanchun/code/cshome/engineering",
+          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-engineering/current",
           "mainDocId": "support",
           "sidebars": {
             "tutorialSidebar": [
@@ -391,6 +94,115 @@
           ]
         }
       ]
+    },
+    "algorithm": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/algorithm",
+          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/algorithm",
+          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+          "contentPath": "/Users/lianshanchun/code/cshome/algorithm",
+          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-algorithm/current",
+          "mainDocId": "动态规划/基础",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "动态规划",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "动态规划/基础"
+                  }
+                ],
+                "collapsed": true
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/algorithm/动态规划/基础": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "动态规划/基础",
+              "id": "动态规划/基础",
+              "isDocsHomePage": false,
+              "title": "基础",
+              "description": "<!-- ---",
+              "source": "@site/algorithm/动态规划/基础.mdx",
+              "sourceDirName": "动态规划",
+              "slug": "/动态规划/基础",
+              "permalink": "/algorithm/动态规划/基础",
+              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/algorithm/动态规划/基础.mdx",
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "frontend": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/frontend",
+          "versionEditUrl": "https://github.com/acsamson/cshome/edit/main/website/frontend",
+          "versionEditUrlLocalized": "https://github.com/acsamson/cshome/edit/main/website/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
+          "versionBanner": "none",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lianshanchun/code/cshome/sidebars.js",
+          "contentPath": "/Users/lianshanchun/code/cshome/frontend",
+          "contentPathLocalized": "/Users/lianshanchun/code/cshome/i18n/cn/docusaurus-plugin-content-docs-frontend/current",
+          "mainDocId": "JavaScript/简介",
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "JavaScript",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "JavaScript/简介"
+                  }
+                ],
+                "collapsed": true
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/frontend/JavaScript/简介": "tutorialSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "JavaScript/简介",
+              "id": "JavaScript/简介",
+              "isDocsHomePage": false,
+              "title": "简介",
+              "description": "大萨",
+              "source": "@site/frontend/JavaScript/简介.mdx",
+              "sourceDirName": "JavaScript",
+              "slug": "/JavaScript/简介",
+              "permalink": "/frontend/JavaScript/简介",
+              "editUrl": "https://github.com/acsamson/cshome/edit/main/website/frontend/JavaScript/简介.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "简介",
+                "title": "简介"
+              },
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
     }
   },
   "docusaurus-plugin-content-blog": {
@@ -405,7 +217,7 @@
             "title": "Welcome",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
             "date": "2019-05-30T00:00:00.000Z",
-            "formattedDate": "2019年5月30日",
+            "formattedDate": "2019 M05 30",
             "tags": [
               {
                 "label": "facebook",
@@ -437,7 +249,7 @@
             "title": "Hello",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2.",
             "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "2019年5月29日",
+            "formattedDate": "2019 M05 29",
             "tags": [
               {
                 "label": "hello",
@@ -469,7 +281,7 @@
             "title": "Hola",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "2019年5月28日",
+            "formattedDate": "2019 M05 28",
             "tags": [
               {
                 "label": "hola",

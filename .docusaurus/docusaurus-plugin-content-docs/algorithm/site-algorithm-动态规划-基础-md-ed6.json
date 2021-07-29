@@ -1,0 +1,15 @@
+{
+  "unversionedId": "动态规划/基础",
+  "id": "动态规划/基础",
+  "isDocsHomePage": false,
+  "title": "基础",
+  "description": "<!-- ---",
+  "source": "@site/algorithm/动态规划/基础.md",
+  "sourceDirName": "动态规划",
+  "slug": "/动态规划/基础",
+  "permalink": "/algorithm/动态规划/基础",
+  "editUrl": "https://github.com/acsamson/cshome/edit/main/website/algorithm/动态规划/基础.md",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar"
+}

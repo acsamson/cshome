@@ -1,0 +1,26 @@
+{
+  "pluginId": "algorithm",
+  "version": "current",
+  "label": "Next",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "动态规划",
+        "items": [
+          {
+            "type": "link",
+            "label": "基础",
+            "href": "/algorithm/动态规划/基础"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/algorithm/动态规划/基础": "tutorialSidebar"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pluginId": "frontend",
+  "version": "current",
+  "label": "Next",
+  "banner": "none",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "JavaScript",
+        "items": [
+          {
+            "type": "link",
+            "label": "简介",
+            "href": "/frontend/JavaScript/简介"
+          }
+        ],
+        "collapsed": true
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/frontend/JavaScript/简介": "tutorialSidebar"
+  }
+}

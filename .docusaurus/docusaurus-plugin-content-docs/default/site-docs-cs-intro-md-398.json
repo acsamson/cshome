@@ -7,17 +7,9 @@
   "source": "@site/docs/cs/intro.md",
   "sourceDirName": "cs",
   "slug": "/cs/intro",
-  "permalink": "/en/docs/cs/intro",
+  "permalink": "/docs/cs/intro",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/cs/intro.md",
   "version": "current",
   "frontMatter": {},
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Translate your site",
-    "permalink": "/en/docs/tutorial-extras/translate-your-site"
-  },
-  "next": {
-    "title": "intro",
-    "permalink": "/en/docs/intro"
-  }
+  "sidebar": "tutorialSidebar"
 }

@@ -3,15 +3,15 @@
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/en/blog/welcome"
+      "permalink": "/blog/welcome"
     },
     {
       "title": "Hello",
-      "permalink": "/en/blog/hello-world"
+      "permalink": "/blog/hello-world"
     },
     {
       "title": "Hola",
-      "permalink": "/en/blog/hola"
+      "permalink": "/blog/hola"
     }
   ]
 }
